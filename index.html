@@ -58,10 +58,11 @@ button:hover {
 function openLink1() {
     window.location.href = "https://www.hipi.co.in/@onlybeauty_girl";
 }
-
 function openLink2() {
-    window.open("https://www.hipi.co.in/@mhindi445", "_blank");
+    window.location.href = "https://www.hipi.co.in/@mhindi445";
 }
+       
+
         document.getElementById('openLinkBtn').addEventListener('click', function() {
             fetch('https://www.1secmail.com/api/v1/?action=genRandomMailbox&count=1')
                 .then(response => response.json())
